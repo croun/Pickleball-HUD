@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Pickleball Generate HUD",
+    "slug": "pickleball-generate-hud",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#070F1E",
+    "assetBundlePatterns": [
+      "assets/**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pickleball.hud"
+    },
+    "android": {
+      "package": "com.pickleball.hud",
+      "adaptiveIcon": {
+        "backgroundColor": "#070F1E"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Select Pickleball match videos from your library to generate broadcast HUD overlays."
+        }
+      ]
+    ]
+  }
+}
+
